@@ -1,0 +1,568 @@
+.names {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px !important;
+}
+
+.names span {
+    color: var(--primarycolour);
+}
+
+.main-text {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px !important;
+    color: var(--secoundarycolour);
+}
+
+.sub-content p {
+    /* color: var(--primarytext); */
+    color: #737377 !important;
+    margin-bottom: 20px !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.me {
+    width: auto;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px solid var(--primarycolour);
+    padding: 10px;
+    position: relative;
+  background-color: transparent;
+  transition-duration: 300ms;
+  transition-property: transform, box-shadow;
+  transition-timing-function: ease-out;
+  transform: rotate3d(0);
+}
+
+
+.me:hover {
+  transition-duration: 150ms;
+}
+
+.me .glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
+}
+
+.me img {
+    height: 100%;
+}
+
+.btn-de {
+    padding: 10px 28px;
+    background-color: var(--primarycolour);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-de p {
+    color: white !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px !important;
+}
+
+.face i {
+    font-size: 22px;
+    color: var(--secoundarycolour);
+    font-weight: 500;
+}
+
+.face p {
+    font-weight: 500;
+    color: var(--secoundarycolour);
+    font-size: 16px;
+}
+
+#type {
+    margin-left: 10px;
+    color: var(--primarycolour);
+}
+
+.face {
+    cursor: pointer;
+}
+
+.face:hover i {
+    color: var(--primarycolour) !important;
+}
+
+.face:hover p {
+    color: var(--primarycolour) !important;
+}
+
+.sub {
+    margin-top: 40px;
+}
+
+.sub p {
+    color: var(--secoundarycolour);
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.sub p span {
+    color: var(--primarycolour);
+    font-weight: 600;
+}
+
+.sub-content.about {
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.about-details {
+    margin-bottom: 20px;
+}
+
+.about-details h6 {
+    color: var(--secoundarycolour);
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    font-family: "Poppins", serif !important;
+}
+
+.about-details span {
+    color: var(--textcolour);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.progress {
+    background: rgba(81, 78, 78, 0.185);
+    justify-content: start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    /* padding: 0 5px;   */
+    display: flex;
+    height: 10px;
+    width: 100%;
+}
+
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: var(--primarycolour);
+    height: 10px;
+    width: 0;
+}
+
+@keyframes load {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+
+.progress-value3 {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: var(--primarycolour);
+    height: 10px;
+    width: 0;
+}
+
+@keyframes load3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.progress-value4 {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: var(--primarycolour);
+    height: 10px;
+    width: 0;
+}
+
+@keyframes load4 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.progress-value-1 {
+    animation: load1 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: var(--primarycolour);
+    height: 10px;
+    width: 0;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.progress-value2 {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: var(--primarycolour);
+    height: 10px;
+    width: 0;
+}
+
+@keyframes load2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.levels p {
+    font-size: 16px;
+    color: var(--secoundarycolour);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.levels {
+    margin-bottom: 20px;
+}
+
+.education-card {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+}
+
+.card-inner {
+    padding: 10px;
+}
+
+.date-icn {
+    color: var(--primarycolour);
+    font-size: 22px;
+}
+
+.date-icn p {
+    color: #8A8A8A !important;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 10px !important;
+}
+
+.position p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7B6B6B !important;
+    margin: 5px 0px !important;
+}
+
+.place p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--secoundarycolour) !important;
+    margin: 5px 0px !important;
+    letter-spacing: 1px;
+}
+
+.place span {
+    font-size: 12px;
+}
+
+.sub-content.subtit p {
+    font-size: 16px !important;
+    color: #4E527A !important;
+    margin: 5px !important;
+}
+
+.card-inner.sch {
+    margin-top: 60px;
+}
+
+.center-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px !important;
+}
+
+.center-circle img {
+    width: 45px;
+    height: 45px;
+}
+
+.center-tit p {
+    margin-top: 10px !important;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--secoundarycolour) !important;
+}
+
+.tit-content p {
+    text-align: justify;
+    margin-top: 10px !important;
+    color: var(--textcolour) !important;
+    font-size: 15px !important;
+}
+
+.card-inner {
+    position: relative;
+    z-index: 99;
+}
+
+
+
+.service-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-card::before {
+    width: 12%;
+    height: 12%;
+    content: '';
+    position: absolute;
+    background-color: #fa4235;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    transition-duration: 0.5s;
+    transform: translateY(0px);
+    border-radius: 3px;
+}
+
+.service-card:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+}
+
+.service-card p {
+    transition: all 0.5s ease-in;
+
+}
+
+.service-card:hover p {
+    color: white !important;
+}
+
+
+.service-card-1 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-card-1::before {
+    width: 12%;
+    height: 12%;
+    content: '';
+    position: absolute;
+    background-color: #fa4235;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    transition-duration: 0.5s;
+    transform: translateY(0px);
+    border-radius: 3px;
+}
+
+.service-card-1:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+}
+
+.service-card-1 p {
+    transition: all 0.5s ease-in;
+
+}
+
+.service-card-1:hover p {
+    color: white !important;
+}
+
+
+.service-card-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-card-2::before {
+    width: 12%;
+    height: 12%;
+    content: '';
+    position: absolute;
+    background-color: #fa4235;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    transition-duration: 0.5s;
+    transform: translateY(0px);
+    border-radius: 3px;
+}
+
+.service-card-2:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+}
+
+.service-card-2 p {
+    transition: all 0.5s ease-in;
+
+}
+
+.service-card-2:hover p {
+    color: white !important;
+}
+
+
+
+
+.service-card-4 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-card-4::before {
+    width: 12%;
+    height: 12%;
+    content: '';
+    position: absolute;
+    background-color: #fa4235;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    transition-duration: 0.5s;
+    transform: translateY(0px);
+    border-radius: 3px;
+}
+
+.service-card-4:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+}
+
+.service-card-4 p {
+    transition: all 0.5s ease-in;
+
+}
+
+.service-card-4:hover p {
+    color: white !important;
+}
+
+
+.service-card-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-card-5::before {
+    width: 12%;
+    height: 12%;
+    content: '';
+    position: absolute;
+    background-color: #fa4235;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    transition-duration: 0.5s;
+    transform: translateY(0px);
+    border-radius: 3px;
+}
+
+.service-card-5:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+}
+
+.service-card-5 p {
+    transition: all 0.5s ease-in;
+
+}
+
+.service-card-5:hover p {
+    color: white !important;
+}
+
+
+.service-card-3 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-card-3::before {
+    width: 12%;
+    height: 12%;
+    content: '';
+    position: absolute;
+    background-color: #fa4235;
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    transition-duration: 0.5s;
+    transform: translateY(0px);
+    border-radius: 3px;
+}
+
+.service-card-3:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+}
+
+.service-card-3 p {
+    transition: all 0.5s ease-in;
+
+}
+
+.service-card-3:hover p {
+    color: white !important;
+}
