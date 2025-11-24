@@ -8,6 +8,7 @@ function text(){
       });
       
 }
+
 function me(){
   const $card = document.querySelector('.me');
 let bounds;
