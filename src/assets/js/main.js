@@ -56,3 +56,34 @@ $card.addEventListener('mouseleave', () => {
   $card.style.background = '';
 });
 }
+
+function sec(){
+  const menuItems = document.querySelectorAll(".menuname ul li");
+
+  const sections = [
+    document.querySelector(".top_header"),      // Home
+    document.querySelector("#about-section"),   // About Me
+    document.querySelector("#journey-section"), // My Journey
+    document.querySelector("#portfolio-section"), // Portfolio
+    document.querySelector("#contact-section")  // Contact Us
+  ];
+
+  window.addEventListener("scroll", () => {
+    let currentIndex = 0;
+
+    sections.forEach((sec, index) => {
+      const rect = sec.getBoundingClientRect();
+      if (rect.top <= 150 && rect.bottom >= 150) {
+        currentIndex = index;
+      }
+    });
+
+    menuItems.forEach((item, i) => {
+      item.classList.remove("active");
+      if (i === currentIndex) {
+        item.classList.add("active");
+      }
+    });
+  });
+
+}
